@@ -1,0 +1,147 @@
+.images-container{
+width: 100%;
+}
+
+.image-3-container{
+width: 100%;
+position: relative;
+}
+
+.image-3-class{
+    width: 100%;
+   
+}  
+.image-3-position-absolute{
+    position: absolute;
+    top: 369px;
+    left: 100px;
+    color: #000;
+
+    padding: 10px;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 4rem;
+    color: white;
+    line-height: 61.2px;
+}
+.see-button{
+    border-radius:30px ;
+    font-size: 20px;
+    font-family: Roboto,sans-serif;
+    background-color:transparent;
+    color: #fff;
+    border: solid white;
+    height: 55px;
+
+
+}
+.image-2-container{
+    width: 100%;
+    position: relative;
+}
+.image-2-class{
+    width: 100%;
+}
+.image-2-position-absolute{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    background-color: #21612d;
+    font: 400 20px/1.2 "Nobel", Helvetica, Arial, sans-serif;
+
+}
+.image-1-container{
+    width: 100%;
+    position: relative;
+}
+.image-1-class{
+    width: 100%;
+}
+.image-1-position-absolute{
+position: absolute;
+top: 300px;
+left: 50%;
+background-color: #21612d ;
+font: 400 20px/1.2 "Nobel", Helvetica, Arial, sans-serif;
+
+}
+.footer{
+    background-color:#3e3e3e ;
+    height: 130px;
+    padding: 15px 0;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-links a{
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-links-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .navbar {
+       flex-direction: column;
+       height: auto;
+       padding: 10px;
+    }
+ 
+    .first-section, .middile-section, .end-section {
+       flex: 1 1 100%;
+       justify-content: center;
+    }
+ 
+    .middile-section a {
+       font-size: 18px;
+    }
+ 
+    .image-3-position-absolute, .image-2-position-absolute, .image-1-position-absolute {
+       position: absolute;
+       top: 250px;
+       left: 10%;
+       right: 10%;
+       text-align: center;
+       font-size: 3rem;
+    }
+ 
+    .see-button, .image-2-position-absolute button, .image-1-position-absolute button {
+       font-size: 16px;
+       padding: 10px 20px;
+    }
+ 
+    .footer-links {
+       flex-direction: column;
+    }
+ 
+    .footer-links a {
+       font-size: 12px;
+    }
+ }
+ 
+ @media (max-width: 576px) {
+    .image-3-position-absolute, .image-2-position-absolute, .image-1-position-absolute {
+       font-size: 2rem;
+       top: 200px;
+    }
+ 
+    .see-button, .image-2-position-absolute button, .image-1-position-absolute button {
+       font-size: 14px;
+       padding: 8px 15px;
+    }
+ 
+    .footer-links a {
+       font-size: 10px;
+    }
+ }
+ 
+
